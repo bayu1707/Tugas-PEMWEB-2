@@ -1,0 +1,57 @@
+/* Style untuk video background */
+.video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+/* Style untuk konten di atas video */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white; /* Warna teks diubah menjadi putih agar terlihat di atas video */
+}
+
+header {
+    position: relative;
+    z-index: 1;
+}
+
+/* Rata kiri untuk teks paragraf dan judul */
+p, h1 {
+    position: relative;
+    z-index: 1;
+    text-align: left; /* Mengubah teks menjadi rata kiri */
+    margin-top: 50px;
+    padding-left: 20px; /* Memberikan padding kiri untuk memberi jarak dari tepi */
+}
+
+/* Style untuk navbar */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.7); /* Transparan hitam untuk menu */
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}

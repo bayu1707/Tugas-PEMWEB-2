@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashboard.css">
+    <script src="slideshow.js"></script>
+    <title>Dashboard</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div class="container">
+
+            <!--Full width-image with number text-->
+            <div class="mySlides">
+                <img src="foto2.3.jpg" style="width:1600px; height:800px">
+            </div>
+
+            <div class="mySlides">
+                <img src="foto3.3.jpg" style="width:1600px; height:800px">
+            </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+             <!-- Image text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <!-- Thumbnail images -->
+            <div class="row">
+              <div class="column">
+                <img class="demo cursor" src="foto2.4.jpg" style="width:250px; height:200px;" onclick="currentSlide(1)" alt="Nyetir Ditengah Hutan">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="foto3.4.jpg" style="width:250px; height:200px;" onclick="currentSlide(2)" alt="Pegunungan Terbaik Di dunia">
+              </div>
+            </div>
+          </div>
+        </nav>
+    </section>
+
+    <section>   
+        <h1><b><center>Berita Terkini</center></b></h1>
+        <div>
+            <img src="foto2.1.jpg"
+            alt="pemandangan"
+            width="200px"
+            height="200px"
+            style="float: left; margin-right: 10px;"/>
+            <h3>Lorem Ipsum</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate odio eget porttitor eleifend. Nullam auctor nunc in tortor tempus vulputate. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec sed sapien sed eros egestas viverra quis ut felis. Fusce quis magna eu dui lacinia accumsan. Suspendisse sagittis, justo eu accumsan commodo, nulla magna tincidunt justo, non iaculis sem quam id purus. Morbi eget pellentesque elit, sed condimentum felis. Nullam vitae mollis enim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras ullamcorper orci a gravida placerat. Mauris accumsan lobortis lacus a aliquet. Quisque interdum nunc at commodo laoreet. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+            <a href="beritadetil1.html">Selengkapnya</a>
+        </p>
+        </div>
+        <div style="clear: left;"></div>
+        <hr>
+
+        <div>
+            <img src="foto3.1.jpg"
+            alt="pemandangan"
+            width="200px"
+            height="200px"
+            style="float: left; margin-right: 10px;"/>
+            <h3>Lorem Ipsum</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate odio eget porttitor eleifend. Nullam auctor nunc in tortor tempus vulputate. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec sed sapien sed eros egestas viverra quis ut felis. Fusce quis magna eu dui lacinia accumsan. Suspendisse sagittis, justo eu accumsan commodo, nulla magna tincidunt justo, non iaculis sem quam id purus. Morbi eget pellentesque elit, sed condimentum felis. Nullam vitae mollis enim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras ullamcorper orci a gravida placerat. Mauris accumsan lobortis lacus a aliquet. Quisque interdum nunc at commodo laoreet. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+            <a href="beritadetil2.html">Selengkapnya</a>
+        </p>
+        </div>
+        <div style="clear: left;"></div>
+        <hr>
+        <h3>Web Rekomendasi</h3>
+        <ul>
+            <li><a href="https://www.google.com" target="_blank">Google</a></li>
+            <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+        </ul>
+    
+        <br>
+        <hr>
+    </body>
+    </html>

@@ -1,0 +1,148 @@
+/* Untuk tampilan dasar navbar */
+nav ul {
+    list-style-type: none; /* buat ngilangin simbol */
+    margin: 0; 
+    padding: 0;
+    overflow: hidden; /* sembunyikan teks yang melampaui batas */
+    background-color: #333;
+}
+
+nav ul li {
+    float: left; /* navbar horisontal */
+}
+
+nav ul li a {
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px; /* padding adalah jarak konten dan border */
+    text-decoration: none;
+}
+
+/* Warna latar belakang saat hover pada link di navbar */
+nav li a:hover {
+    background-color: #111;
+}
+
+/* Mengatur ukuran box model */
+* {
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Mengatur posisi gambar container (untuk menempatkan panah) */
+.container {
+    position: relative;
+}
+
+/* Sembunyikan gambar secara default */
+.mySlides {
+    display: none;
+}
+
+/* Mengubah kursor menjadi pointer saat hover pada thumbnail */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%; /* posisi vertikal dari tombol */
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    background-color: rgba(0, 0, 0, 0.5); /* Transparansi tombol panah */
+}
+
+/* Tombol 'next' berada di sebelah kanan */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* Efek hover untuk tombol panah */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Teks nomor (1/3 dll.) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Kontainer untuk teks caption gambar */
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+/* Mengatur tampilan setelah elemen row */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Kolom untuk thumbnail gambar */
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+/* Efek transparansi untuk thumbnail */
+.demo {
+    opacity: 0.6;
+}
+
+/* Efek aktif dan hover untuk thumbnail */
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+/* Menambahkan panah kiri dan kanan untuk teks di dashboard */
+.arrow-left, .arrow-right {
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.arrow-left {
+    left: 0; /* Posisi panah kiri */
+    border-radius: 0 3px 3px 0;
+}
+
+.arrow-right {
+    right: 0; /* Posisi panah kanan */
+    border-radius: 3px 0 0 3px;
+}
+
+/* Efek hover untuk panah kiri dan kanan */
+.arrow-left:hover, .arrow-right:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
